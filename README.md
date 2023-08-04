@@ -1,4 +1,39 @@
-# Getting Started with Create React App
+# Roommate Expense Calculator
+
+The Roommate Expense Tracker is a user-friendly React app designed to simplify expense calculations and budget tracking for people living together as roommates. It offers a convenient solution for managing shared expenses, accommodating varying spending habits, and ensuring fair contributions from each roommate.
+
+# Key Features:
+
+Shared Expense Management:
+Roommates can input their expenses, detailing how much money they have spent during a specified time frame. This includes both shared purchases and individual purchases.
+
+Customized Expense Allocation:
+The app recognizes that roommates may have different preferences and consumption patterns. Users can indicate how much of their expenses are dedicated to their individual preferences, such as specific products or items.
+
+Equal Shared Expenses:
+In situations where two or more roommates have made equal contributions for products that are used by at least one roommate, the app can accurately calculate and account for these shared expenses.
+
+Transparent and Fair Calculations:
+The Roommate Expense Tracker handles complex calculations and ensures fair distribution of expenses based on individual spending and shared costs. It eliminates the need for manual calculations and potential conflicts over uneven expenses.
+
+Real-Time Updates:
+The app updates expense records in real-time, allowing roommates to track their budget and financial status at any given moment.
+
+Multi-Roommate Support:
+The app supports multiple roommates, making it ideal for households with more than two members. Each roommate can input their expenses and preferences independently.
+
+User-Friendly Interface:
+With an intuitive user interface, the Roommate Expense Tracker is easy to navigate, making it accessible to users of all tech skill levels.
+
+# Benefits:
+
+Simplified Expense Management: The app streamlines the process of recording and calculating expenses, saving users time and effort.
+
+Clear Financial Picture: Roommates gain a transparent view of their collective spending habits, helping them make informed decisions and budget effectively.
+
+Equitable Contributions: By considering individual preferences and shared expenses, the app promotes fair financial participation among roommates.
+
+Reduced Conflicts: The Roommate Expense Tracker minimizes potential conflicts arising from unequal expense sharing, creating a harmonious living environment.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,58 +48,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

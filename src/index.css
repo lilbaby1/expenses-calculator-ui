@@ -1,13 +1,247 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: "Montserrat", Times, "Times New Roman";
+  background-color: white;
+  color: #000;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+header {
+  z-index: 999;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: palevioletred;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+}
+
+.header-title-line {
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.menu-button {
+  display: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a,
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-top: 1em;
+  padding: 0 0.5rem;
+}
+
+article {
+  margin: 0.5rem 0.5rem;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: inherit;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  height: 200px;
+}
+
+.postsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  .sortBy {
+    width: 45%;
+    font-size: 1rem;
+  }
+}
+
+.postLink {
+  color: palevioletred;
+}
+
+a {
+  color: palevioletred;
+}
+
+.timeAgo {
+  font-family: inherit;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.postButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  padding: 1rem;
+  background-color: palevioletred;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.deleteButton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.editButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: lightskyblue;
+  color: white;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  transform: scale(1.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+button,
+textarea {
+  font-family: inherit;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  font-family: inherit;
+  padding: 0.5rem;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.calendarElement {
+  position: absolute;
+  left: 100%;
+  transform: translateX(-100%);
+  top: 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 999;
+  font-size: 22px;
 }
