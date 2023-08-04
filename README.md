@@ -2,6 +2,8 @@
 
 The Roommate Expense Tracker is a user-friendly React app designed to simplify expense calculations and budget tracking for people living together as roommates. It offers a convenient solution for managing shared expenses, accommodating varying spending habits, and ensuring fair contributions from each roommate.
 
+<b>This is first version of the app with a minimum amount of features. More features to come, including REST API for user registration and authentication.</b>
+
 # Key Features:
 
 Shared Expense Management:
